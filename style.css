@@ -8,6 +8,10 @@
   /* outline: 1px solid #f00 !important; */
 }
 
+html {
+  font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   background: #e9ecef;
@@ -76,10 +80,7 @@ section > h5 {
   max-width: 480px;
 }
 
-/* html {
-  font-size: 16px;
-}
-@media screen and (min-width: 320px) {
+/* @media screen and (min-width: 320px) {
   html {
     font-size: calc(16px + 6 * ((100vw - 320px) / 680));
   }
@@ -89,14 +90,3 @@ section > h5 {
     font-size: 22px;
   }
 } */
-
-@media screen and (min-width: 320px) {
-  html {
-    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
-  }
-}
-@media screen and (min-width: 1000px) {
-  html {
-    font-size: 22px;
-  }
-}
