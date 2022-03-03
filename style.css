@@ -1,0 +1,102 @@
+/* CSS Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* for testing who is causing horizontal scroll */
+  /* outline: 1px solid #f00 !important; */
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #e9ecef;
+  /* padding-top: 65px; */
+}
+
+/* nav > ul {
+  list-style-type: none;
+} */
+
+/* section.collapse > ul > li > a {
+  color: #ffffff;
+} */
+
+header {
+  background: #071330;
+  /* display: block; */
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+footer {
+  background-color: #071330;
+}
+
+main > section > img {
+  /* width: 70%; */
+  /* width: 25em; */
+  width: 100%;
+}
+
+h1,
+h2 {
+  font-family: 'Paytone One', sans-serif;
+}
+
+h1 {
+  /* font-size: 5em; */
+  font-size: 4rem;
+  /* font-size: calc(); */
+}
+
+section > h2 {
+  font-size: 2em;
+}
+
+main + section + section > section > p {
+  font-size: 1.25rem;
+}
+
+main > section > span {
+  font-size: 1.2rem;
+}
+
+section > h5 {
+  font-weight: bold;
+}
+
+#myPhoto {
+  border-radius: 256px;
+  max-width: 256px;
+}
+
+#svg {
+  max-width: 480px;
+}
+
+/* html {
+  font-size: 16px;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 22px;
+  }
+} */
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 22px;
+  }
+}
